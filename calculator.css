@@ -1,0 +1,30 @@
+body{
+    background: #596e79;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.containor {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 15px;
+ padding: 40px;
+ border-radius: 10px;
+ font-size: 30px;
+ color: #f5c7f7;
+ background: #2c3e50;
+}
+.display{
+    box-sizing: content-box;
+    width: 298px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1px;
+    border-radius: 4px;
+    text-align: right;
+}
